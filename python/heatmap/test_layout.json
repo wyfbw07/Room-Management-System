@@ -1,0 +1,29 @@
+{
+    "rooms": [
+        {
+            "name": "room0",
+            "corners": [
+                {"x": 0.0, "y": 0.0},
+                {"x": 0.0, "y": 5.0},
+                {"x":50.0, "y": 5.0},
+                {"x":50.0, "y": 0.0}
+            ],
+            "sensors": [
+               
+                {"x": 0.5, "y": 0.5, "sensor_id": "btouen5pna500081gmvg", "t0": 22},
+                {"x": 4.5, "y": 0.5, "sensor_id": "btouen5pna500081gn90", "t0": 20},
+                {"x": 9.5, "y": 0.5, "sensor_id": "btouen5pna500081gmvg", "t0": 20},
+                {"x": 14.5, "y": 0.5, "sensor_id": "btouen5pna500081gn90", "t0": 25},
+                {"x": 3.5, "y": 4.5, "sensor_id": "btouen5pna500081gmvg", "t0": 24}
+            ]
+        }
+    ],
+
+    "doors": [
+        
+
+    ],
+
+    "oofs": [
+    ]
+}

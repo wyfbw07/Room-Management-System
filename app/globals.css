@@ -1,0 +1,15 @@
+:root{
+  --bg-grey: #222222; /* Declaring CSS variables */
+  --text-grey: #f5f5f5;
+}
+
+body {
+  background-color: var(--bg-grey);
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  color: var(--text-grey);
+}

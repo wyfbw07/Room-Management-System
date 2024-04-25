@@ -1,0 +1,73 @@
+/* Room6001.module.css */
+
+.pageContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.messageFormContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.messageForm {
+    display: flex;
+    width: 100%;
+}
+
+.messageInput {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    border: 2px solid #424242;
+    border-radius: 8px;
+    color: #333;
+}
+
+.sendButton {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sendButton:hover {
+    background-color: #367c39;
+}
+
+.messageHistory {
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 300px;
+    
+    border: 2px solid #424242;
+    border-radius: 8px;
+    padding: 1px;
+    background-color: #222222;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.message {
+    padding: 9px 10px;
+    margin-bottom: 2px;
+    background-color: #424242;
+    color: var(--text-grey);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.messageId {
+    vertical-align: bottom;
+    font-size: 0.7em;
+  }
+  

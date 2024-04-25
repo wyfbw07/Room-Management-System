@@ -1,0 +1,57 @@
+.occupancyMap {
+    display: flex;
+    justify-content: center;
+    background-color: #424242;
+    gap: 20px;
+    padding: 20px;
+    width: calc(100vw - 80px);
+    border-radius: 10px;
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+}
+
+.room {
+    position: relative;
+    width: 14vw; /* Adjusts width as a percentage of the viewport width */
+    height: 7vw; /* Maintains aspect ratio */
+    border: 2px solid #666;
+    margin: 10px;
+    border-radius: 4px;
+    flex: 0 0 auto; /* Prevents flex items from growing or shrinking */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: #f0f0f0;
+    overflow: hidden;
+}
+
+/* Door cutout */
+.room::after {
+    content: '';
+    position: absolute;
+    right: -2vw;
+    bottom: 1vw;
+    width: 3vw; 
+    height: 4.5vw;
+    background-color: #f0f0f0;
+    border: 2px solid #666;
+    border-top-right-radius: 2vw; 
+    border-bottom-right-radius: 2vw; 
+}
+
+/* Room occupied */
+.occupied {
+    background-color: #ff7f4c;
+}
+
+/* Room available */
+.available {
+    background-color: #90ee90;
+}
+
+/* Door open state */
+.doorOpen::after {
+    background-color: #90ee90;  
+}
+
+/* Door closed state */
+.doorClosed::after {
+    background-color: #ff7f4c; 
+}
