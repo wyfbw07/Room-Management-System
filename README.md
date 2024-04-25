@@ -1,5 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Related files
+
+This project is a branch of an ongoing project.
+
+Files of interests are: 
+
+- ./pages/rooms
+- ./pages/api/messages.js
+
 ## Getting Started
 
 First, run the development server:
